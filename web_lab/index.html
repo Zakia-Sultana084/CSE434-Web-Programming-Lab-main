@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <header id="header-section" class="bg-blue-300 text-gray-900 py-8 shadow-lg">
+        <div class="container mx-auto flex flex-col items-center px-4">
+            <h1 class="text-4xl font-extrabold mb-6 text-center">Welcome To Zakia's Blog Page</h1>
+            <nav class="w-full max-w-3xl">
+                <ul class="flex flex-col md:flex-row justify-center items-stretch md:items-center gap-4 md:gap-6 text-lg font-medium">
+                    <li class="flex-1 md:flex-none">
+                        <a href="index.html" class="block w-full text-center bg-gray-800 text-white px-8 py-3 rounded-xl shadow-md hover:bg-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 uppercase tracking-wider font-semibold">
+                            Home
+                        </a>
+                    </li>
+                    <li class="flex-1 md:flex-none">
+                        <a href="about.html" class="block w-full text-center bg-gray-800 text-white px-8 py-3 rounded-xl shadow-md hover:bg-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 uppercase tracking-wider font-semibold">
+                            About
+                        </a>
+                    </li>
+                    <li class="flex-1 md:flex-none">
+                        <a href="blog.html" class="block w-full text-center bg-gray-800 text-white px-8 py-3 rounded-xl shadow-md hover:bg-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 uppercase tracking-wider font-semibold">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="flex-1 md:flex-none">
+                        <a href="contact.html" class="block w-full text-center bg-gray-800 text-white px-8 py-3 rounded-xl shadow-md hover:bg-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 uppercase tracking-wider font-semibold">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-section" class="container mx-auto my-12 px-6 md:px-16 bg-gray-50 p-10 rounded-xl shadow-lg">
+        <div class="grid md:grid-cols-3 gap-12">
+            <article id="article-section" class="md:col-span-2 bg-white p-8 rounded-xl shadow-md">
+                <h2 class="text-3xl font-semibold mb-6">My First Blog Post</h2>
+                <p class="text-lg leading-relaxed mb-6 text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, sem et bibendum consectetur, nulla dolor malesuada velit, a auctor sapien urna id lectus. Sed euismod, nisl nec aliquam aliquam, nunc nisl aliquet nunc, eget aliquam nisl nunc eget nisl.</p>
+                <img src="images/blog-image.jpg" alt="An example blog image" class="w-full h-auto rounded-lg shadow-lg">
+            </article>
+            
+            <aside id="aside-section" class="bg-white p-8 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold mb-4">About Zakia Sultana</h3>
+                <p class="text-lg leading-relaxed text-gray-700">Dive into the digital realm with me as I blend creativity and code to build seamless, intuitive web experiences. From cutting-edge tech stacks to pixel-perfect designs, I’m on a mission to make the web more engaging and accessible. Join me as I share insights, tips, and tutorials to empower the next generation of developers! 💻</p>
+            </aside>
+        </div>
+    </main>
+
+    <footer id="footer-section" class="bg-blue-300 text-gray-900 text-center py-6 mt-12 shadow-lg">
+        <p class="text-lg">&copy; 2024 Zakia's Personal Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
